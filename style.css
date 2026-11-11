@@ -592,17 +592,14 @@ ul {
    RESPONSIF — MOBILE (≤ 768px)
    ========================================== */
 @media (max-width: 768px) {
-    /* Sembunyikan CTA di navbar mobile */
     .nav-cta {
         display: none;
     }
 
-    /* Tampilkan hamburger */
     .hamburger {
         display: flex;
     }
 
-    /* Menu mobile dropdown */
     .nav-links {
         position: absolute;
         top: 100%;
