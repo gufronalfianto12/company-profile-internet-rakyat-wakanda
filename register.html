@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daftar Akun Baru Pelanggan — PT. Internet Rakyat Wakanda">
+    <title>Pendaftaran Akun — PT. Internet Rakyat Wakanda</title>
+
+    <!-- Font Modern -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Ikon Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS Eksternal -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css"> <!-- Menggunakan base style yang sama dengan login -->
+</head>
+<body class="login-body">
+
+    <div class="login-container" style="max-width: 480px;">
+        <div class="login-card">
+            <!-- Tombol Kembali ke Beranda -->
+            <a href="index.html" class="back-home"><i class="fas fa-arrow-left"></i> Kembali ke Beranda</a>
+
+            <div class="login-header">
+                <h2>Buat Akun Baru</h2>
+                <p>Mulai nikmati konektivitas cepat bersama PT. Internet Rakyat Wakanda</p>
+            </div>
+
+            <form action="#" method="POST" class="login-form">
+                <div class="form-group">
+                    <label for="fullname">Nama Lengkap</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="fullname" name="fullname" placeholder="Masukkan nama lengkap" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Alamat Email</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Nomor Telepon / WhatsApp</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" id="phone" name="phone" placeholder="081234567890" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Kata Sandi</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="password" name="password" placeholder="Minimal 8 karakter" required>
+                    </div>
+                </div>
+
+                <div class="form-remember">
+                    <label style="font-size: 0.85rem;">
+                        <input type="checkbox" name="terms" required> Saya menyetujui <a href="#" style="color: var(--primary);">Syarat &amp; Ketentuan</a> yang berlaku
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-primary btn-login">Daftar Sekarang</button>
+            </form>
+
+            <div class="login-footer">
+                <p>Sudah punya akun? <a href="login.html">Masuk di sini</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
