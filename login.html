@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login Pelanggan — PT. Internet Rakyat Wakanda">
+    <title>Masuk Akun — PT. Internet Rakyat Wakanda</title>
+
+    <!-- Font Modern -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Ikon Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS Eksternal (Gunakan style.css yang sama) -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Tambahan Khusus Halaman Login -->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body class="login-body">
+
+    <div class="login-container">
+        <div class="login-card">
+            <!-- Tombol Kembali ke Beranda -->
+            <a href="index.html" class="back-home"><i class="fas fa-arrow-left"></i> Kembali ke Beranda</a>
+
+            <div class="login-header">
+                <h2>Selamat Datang Kembali</h2>
+                <p>Masuk ke portal pelanggan PT. Internet Rakyat Wakanda</p>
+            </div>
+
+            <form action="#" method="POST" class="login-form">
+                <div class="form-group">
+                    <label for="email">Email atau ID Pelanggan</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" id="email" name="email" placeholder="contoh@email.com atau WKD-12345" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="label-wrapper">
+                        <label for="password">Kata Sandi</label>
+                        <a href="#" class="forgot-password">Lupa Kata Sandi?</a>
+                    </div>
+                    <div class="input-with-icon">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="password" name="password" placeholder="••••••••" required>
+                    </div>
+                </div>
+
+                <div class="form-remember">
+                    <label>
+                        <input type="checkbox" name="remember"> Ingat saya di perangkat ini
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-primary btn-login">Masuk Sekarang</button>
+            </form>
+
+            <div class="login-footer">
+                <p>Belum punya langganan internet? <a href="index.html#layanan">Pilih Paket</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
